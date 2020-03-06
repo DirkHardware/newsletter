@@ -34,6 +34,7 @@
 		.title{
 			line-height:1.3;
 		}
+
 		h2,strong.subheader{
 			font-family:georgia,'times new roman',serif;
 			font-size:20px;
@@ -61,16 +62,20 @@
 			border-top-color:#d40000;
 		}
 
+    #hero-card{
+      filter: drop-shadow(0 0 0.30rem black);
+    }
+
     #webinar-card{
-      filter: drop-shadow(0 0 0.75rem orange);
-      margin-top: 20%;
-      margin-bottom: 5%;
+      filter: drop-shadow(0 0 0.30rem orange);
+      /* margin-top: 20%;
+      margin-bottom: 5%; */
     }
 
     #podcast-card{
-      filter: drop-shadow(0 0 0.75rem crimson);
-      margin-top: 20%;
-      margin-bottom: 5%
+      filter: drop-shadow(0 0 0.30rem crimson);
+      /* margin-top: 20%;
+      margin-bottom: 5% */
     }
 
 	@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
@@ -277,9 +282,9 @@
       </tr>
     </table>
     <!-- HERO -->
-    <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="hero">
+    <table id="hero-card" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="hero">
       <tr>
-        <td align="left" style="padding:15px 0;font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="hero_flag">Hero Story Title</td>
+        <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="hero_flag">Hero Story Title</td>
       </tr>
       <tr>
         <td align="center" mc:hideable><img src="https://gallery.mailchimp.com/ffb81a162e03775e0b4049532/images/9fa59610-bd51-4c44-a810-e8c224cbaac7.jpg" style="display:block;margin:0 auto;border:0;white-space:pre;text-align:center;" alt="" class="full" mc:edit="image_1">
@@ -287,12 +292,12 @@
       </tr>
       <tr>
         <td align="left" style="padding:15px 0;" mc:edit="hero_paragraph">
-          <p style="margin:0;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;"><strong style="font-family:georgia, 'times new roman', serif;">Paragraph Title</strong> Article copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
+          <p style="margin-left:5%; font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;"><strong style="font-family:georgia, 'times new roman', serif;">Paragraph Title</strong> Article copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
         </td>
       </tr>
     </table>
     <!-- PARTNER THOUGHTS -->
-    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="partner_thoughts">
+    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="partner_thoughts">
       <tr>
         <td align="center" style="padding:0;">
           <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" style="width:100%;margin:0 auto;">
@@ -304,7 +309,7 @@
               <td align="center" style="padding:10px 0 15px;">
                 <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
                   <tr>
-                    <td align="left" style="font-size:30px;font-family:georgia, 'times new roman', serif;color:#161618;font-weight:normal;" class="title" mc:edit="partner_flag">Partner Name</td>
+                    <td align="left" style="padding-left: 2.5%; margin-left:5% auto; font-size:30px;font-family:georgia, 'times new roman', serif;color:#161618;font-weight:normal;" class="title" mc:edit="partner_flag">Partner Name</td>
                   </tr>
                   <tr>
                     <td align="center" style="padding:10px 0 15px;" mc:hideable><img src="https://gallery.mailchimp.com/ffb81a162e03775e0b4049532/images/9633b856-c13d-4461-9a37-00205b0e7671.jpg" width="600" style="display:block;width:90%;margin:0 auto;border:0;white-space:pre;text-align:center;max-width:600px;" alt="" class="full" mc:edit="image_1">
@@ -312,7 +317,7 @@
                   </tr>
                   <tr>
                     <td align="left" mc:edit="partner_paragraph">
-                      <p style="margin:0;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Partner copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
+                      <p style="margin-left:2.5%; font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Partner copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
                     </td>
                   </tr>
                 </table>
@@ -333,7 +338,7 @@
       </tr>
     </table>
     <!-- PODCAST -->
-    <table id="podcast-card" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #d40000 !important;" class="box divider-line podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
+    <table id="podcast-card" role="presentation" style="width:640px;margin:2% auto; border-top:0px solid #d40000 !important;" class="box divider-line podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
       <tbody>
         <tr>
           <td style="padding:0;" align="center">
@@ -348,7 +353,7 @@
                     <table role="presentation" style="width:100%;margin:0 auto;" cellspacing="0" cellpadding="0" border="0" align="center">
                       <tbody>
                         <tr>
-                          <td style="font-size:30px;font-family:georgia, 'times new roman', serif;color:#161618;font-weight:normal;" class="title" align="left" mc:edit="partner_flag">Podcast Title</td>
+                          <td style="padding-left: 2.5%; margin-left:5% auto; font-size:30px;font-family:georgia, 'times new roman', serif;color:#161618;font-weight:normal;" class="title" align="left" mc:edit="partner_flag">Podcast Title</td>
                         </tr>
                         <tr>
                           <td align="center" style="padding:10px 0 15px;" mc:hideable><img src="https://gallery.mailchimp.com/ffb81a162e03775e0b4049532/images/9fa59610-bd51-4c44-a810-e8c224cbaac7.jpg" style="display:block;margin:0 auto;border:0;white-space:pre;text-align:center;" alt="" class="full" mc:edit="image_1">
@@ -356,7 +361,7 @@
                         </tr>
                         <tr>
                           <td align="left" mc:edit="partner_paragraph">
-                            <p style="margin:0;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Podcast copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> and other content go here.</p>
+                            <p style="margin-left:5%; font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Podcast copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> and other content go here.</p>
                           </td>
                         </tr>
                       </tbody>
@@ -370,7 +375,7 @@
       </tbody>
     </table>
     <!-- WEBINAR -->
-    <table align="center" id="webinar-card" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #ff7735;" class="box divider-line orange-divider" mc:repeatable mc:variant="webinar">
+    <table align="center" id="webinar-card" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #ff7735;" class="box divider-line orange-divider" mc:repeatable mc:variant="webinar">
       <tr>
         <td align="center" style="padding:0;">
           <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" style="width:100%;margin:0 auto;">
@@ -387,7 +392,7 @@
                   </tr>
                   <tr>
                     <td align="left" mc:edit="webinar_paragraph">
-                      <p style="margin:0;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Webinar copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
+                      <p style="margin:5%; font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;">Webinar copy with <a href="#" style="text-decoration:underline;color:#161618;" target="_blank">links</a> goes here.</p>
                     </td>
                   </tr>
                   <tr>
