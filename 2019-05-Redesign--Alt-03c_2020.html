@@ -55,6 +55,7 @@
 			border-top-width:1px;
 			border-top-style:solid;
 		}
+
 		.orange-divider{
 			border-top-color:#ff7735;
 		}
@@ -63,33 +64,38 @@
 		}
 
     #fotd {
-      filter: drop-shadow(0 0 0.30rem black);
+      filter: drop-shadow(5px 5px 5px black);
     }
 
     #hero-card{
-      filter: drop-shadow(0 0 0.30rem black);
+      filter: drop-shadow(5px 5px 5px black);
+      background-color: whitesmoke
+    }
+
+    #header-top{
+      background-color: black;
     }
 
     #reading {
-      filter: drop-shadow(0 0 0.30rem black);
+      filter: drop-shadow(5px 5px 5px black);
     }
 
     #trending {
-      filter: drop-shadow(0 0 0.30rem black);
+      filter: drop-shadow(5px 5px 5px black);
     }
 
     #qotd {
-      filter: drop-shadow(0 0 0.30rem black);
+      filter: drop-shadow(5px 5px 5px black);
     }
     
     #webinar-card{
-      filter: drop-shadow(0 0 0.30rem orange);
+      filter: drop-shadow(5px 5px 5px orange);
       /* margin-top: 20%;
       margin-bottom: 5%; */
     }
 
     #podcast-card{
-      filter: drop-shadow(0 0 0.30rem crimson);
+      filter: drop-shadow(5px 5px 5px crimson);
       /* margin-top: 20%;
       margin-bottom: 5% */
     }
@@ -218,15 +224,15 @@
         <td align="center">
           <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" class="box">
             <tr>
-              <td align="center" style="margin:0 auto;text-align:center;vertical-align:middle;font-size:0;">
+              <td id='header-top'align="center" style="margin:0 auto;text-align:center;vertical-align:middle;font-size:0;">
                 <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
                   <tr>
                     <td align="left" style="padding:15px 0;">
-                      <h6 style="margin:0;font-family:arial, helvetica, sans-serif;text-align:left;font-size:11px;color:#161618;-webkit-text-size-adjust:none;font-weight:normal;" mc:edit="date" class="sub">January 12, 2020</h6>
+                      <h6 style="margin:0;font-family:arial, helvetica, sans-serif;text-align:left;font-size:11px;color:white;-webkit-text-size-adjust:none;font-weight:normal;" mc:edit="date" class="sub">January 12, 2020</h6>
                     </td>
                     <td align="right" style="padding:15px 0;">
                       <h6 style="margin:0;font-family:arial, helvetica, sans-serif;text-align:right;font-size:11px;-webkit-text-size-adjust:none;font-style:italic;font-weight:normal;">
-                        <a href="https://frntofficesport.com/newsletters/" style="text-decoration:underline;color:#161618;" target="_blank">Subscribe here</a>
+                        <a href="https://frntofficesport.com/newsletters/" style="text-decoration:underline;color: white;" target="_blank">Subscribe here</a>
                       </h6>
                     </td>
                   </tr>
@@ -276,29 +282,29 @@
       </tr>
     </table>
     <!-- FACT OF THE DAY -->
-    <table align="center" id="fotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="fact_of_the_day">
+    <table align="center" id="fotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="fact_of_the_day">
       <tr>
-        <td align="left" style="padding-left: 2.5%; margin-left:5% auto; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="fact_flag">Fact of the Day</td>
+        <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; margin-left:5% auto; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="fact_flag">Fact of the Day</td>
       </tr>
       <tr>
         <td align="center" style="padding:0 0 18px;">
-          <p style="margin-left:3.3%;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;" mc:edit="fact_paragraph">Article copy goes here.</p>
+          <p style="margin-left:5%;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;" mc:edit="fact_paragraph">Article copy goes here.</p>
         </td>
       </tr>
     </table>
     <!-- TRENDING -->
-    <table align="center" id="trending" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="trending">
+    <table align="center" id="trending" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="trending">
       <tr>
-        <td align="left" style="padding-left: 2.5%; margin-left:5% auto;font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="trend_flag">Stories to Watch</td>
+        <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; margin-left:5% auto;font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="trend_flag">Stories to Watch</td>
       </tr>
       <tr>
         <td align="left" style="padding:0 0 18px;">
-          <p style="margin-left:2.5%;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;" mc:edit="trend_paragraph"><strong style="font-family:georgia, 'times new roman', serif;">Title:</strong> Copy goes here.<br><strong style="font-family:georgia, 'times new roman', serif;">Full Story:</strong> (<a href="#" style="text-decoration:underline;color:#161618;" target="_blank">Author / Source</a>)</p>
+          <p style="margin-left:5%;font-family:arial, helvetica, sans-serif;font-weight:normal;font-size:16px;text-align:left;-webkit-font-smoothing:antialiased;color:#161618;-webkit-text-size-adjust:none;line-height:24px;" mc:edit="trend_paragraph"><strong style="font-family:georgia, 'times new roman', serif;">Title:</strong> Copy goes here.<br><strong style="font-family:georgia, 'times new roman', serif;">Full Story:</strong> (<a href="#" style="text-decoration:underline;color:#161618;" target="_blank">Author / Source</a>)</p>
         </td>
       </tr>
     </table>
     <!-- HERO -->
-    <table id="hero-card" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:1px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="hero">
+    <table id="hero-card" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="hero">
       <tr>
         <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="hero_flag">Hero Story Title</td>
       </tr>
