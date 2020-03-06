@@ -60,6 +60,19 @@
 		.podcast-divider{
 			border-top-color:#d40000;
 		}
+
+    #webinar-card{
+      filter: drop-shadow(0 0 0.75rem orange);
+      margin-top: 20%;
+      margin-bottom: 5%;
+    }
+
+    #podcast-card{
+      filter: drop-shadow(0 0 0.75rem crimson);
+      margin-top: 20%;
+      margin-bottom: 5%
+    }
+
 	@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
 		.ipad{
 			width:319px !important;
@@ -320,7 +333,7 @@
       </tr>
     </table>
     <!-- PODCAST -->
-    <table role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #d40000 !important;" class="box divider-line podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
+    <table id="podcast-card" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #d40000 !important;" class="box divider-line podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
       <tbody>
         <tr>
           <td style="padding:0;" align="center">
@@ -357,7 +370,7 @@
       </tbody>
     </table>
     <!-- WEBINAR -->
-    <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #ff7735;" class="box divider-line orange-divider" mc:repeatable mc:variant="webinar">
+    <table align="center" id="webinar-card" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:1px solid #ff7735;" class="box divider-line orange-divider" mc:repeatable mc:variant="webinar">
       <tr>
         <td align="center" style="padding:0;">
           <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" style="width:100%;margin:0 auto;">
