@@ -91,7 +91,7 @@
       background-color: white
     }
 
-    #hero-card{
+    .card{
       filter: drop-shadow(5px 5px 2.5px black);
       background-color: white
     }
@@ -104,33 +104,8 @@
       background-color:#359DF7;
       filter: drop-shadow(2px 2px 2px black);
     }
-
-    #reading {
-      filter: drop-shadow(5px 5px 2.5px black);
-      background-color: white
-    }
-
-    #trending {
-      filter: drop-shadow(5px 5px 2.5px black);
-      background-color: white
-    }
-
-    #qotd {
-      filter: drop-shadow(5px 5px 2.5px black);
-      background-color: white
-    }
     
-    #webinar-card{
-      filter: drop-shadow(5px 5px 2.5px black);
-      background-color: white
-    }
-
-    #partner-card{
-      filter: drop-shadow(5px 5px 2.5px black);
-      background-color: white; 
-    }
-
-    #podcast-card{
+    .card{
       filter: drop-shadow(5px 5px 2.5px black);
       background-color: white
     }
@@ -250,59 +225,37 @@
 
 }</style></head>
   <body style="padding:0;" bgcolor="#fffffe" class="body">
-    <!-- HEADER -->
-    <!-- <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;" class="header full">
+    <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#000001" role="presentation" style="width:100%;margin:0 auto;" class="full-header">
       <tr>
-        <td style="font-size:0;line-height:0;color:#fffffe;">*|MC_PREVIEW_TEXT|*</td>
-      </tr>
-      <tr>
-        <td align="center"> -->
-          <!-- <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;" class="box">
+        <td id='header-top'align="center" style="margin:0 auto;text-align:right;vertical-align:middle;font-size:0;">
+          <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
             <tr>
-              <td id='header-top'align="center" style="margin:0 auto;text-align:center;vertical-align:middle;font-size:0;">
-                <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
-                  <tr>
-                    <td align="left" style="padding:15px 0;">
-                      <h6 style="margin:0px;font-family:arial, helvetica, sans-serif;text-align:left;font-size:11px;color:white;-webkit-text-size-adjust:none;font-weight:normal;" mc:edit="date" class="sub">January 12, 2020</h6>
-                    </td>
-                    <td align="right" style="padding:15px 0;">
-                      <h6 style="margin:0px;font-family:arial, helvetica, sans-serif;text-align:right;font-size:11px;-webkit-text-size-adjust:none;font-style:italic;font-weight:normal;">
-                        <a href="https://frntofficesport.com/newsletters/" style="text-decoration:underline;color: white;" target="_blank">Subscribe here</a>
-                      </h6>
-                    </td>
-                  </tr>
-                </table> -->
-            <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#000001" role="presentation" style="width:100%;margin:0 auto;" class="full-header">
-              <tr>
-                <td id='header-top'align="center" style="margin:0 auto;text-align:right;vertical-align:middle;font-size:0;">
-                  <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0 auto;">
-                    <tr>
-                        <strong style="font-family:arial, helvetica, sans-serif;text-align:right;font-size:14px;-webkit-text-size-adjust:none;font-style:italic;font-weight:normal;">
-                          <a href="https://frntofficesport.com/newsletters/" style="text-decoration:underline;color:black ;" target="_blank">Subscribe here</a>
-                        </strong>
-                        <a href=https://frntofficesport.com/newsletters/">
-                          <img src="./paperplane.png" style="margin-right:11%; margin-top: 2.5%; height: 20px; width:20px">
-                        </a>
-                      </td>
-                    </tr>
-            </table>
-            </tr>
-            <tr>
-              <td align="center" style="font-family:arial, helvetica, sans-serif;text-align:center;font-size:24px;">
-                <img src="https://gallery.mailchimp.com/24b0ab57106194b0fcd72021d/images/b332e322-bb82-47ad-833b-29fa77f8446d.png" width="310" style="display:block;margin:0 auto;white-space:pre;text-align:center;" alt="Front Office Sports" id="fos-logo" class="box">
+                <strong style="font-family:arial, helvetica, sans-serif;text-align:right;font-size:14px;-webkit-text-size-adjust:none;font-style:italic;font-weight:normal;">
+                  <a href="https://frntofficesport.com/newsletters/" style="text-decoration:underline;color:black ;" target="_blank">Subscribe here</a>
+                </strong>
+                <a href=https://frntofficesport.com/newsletters/">
+                  <img src="./paperplane.png" style="margin-right:11%; margin-top: 2.5%; height: 20px; width:20px">
+                </a>
               </td>
             </tr>
-            <tr>
-              <td align="center" style="padding:0 0 15px;" mc:hideable>
-                <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:250px;margin:0 auto;" class="sponsor">
-                  <tr>
-                    <td height="30" align="center" valign="bottom" class="power" style="width:100px;">
-                      <p style="margin:0;font-family:arial, helvetica, sans-serif;text-align:center;font-size:13px;color:#161618;-webkit-text-size-adjust:none;font-weight:bold;">Powered by</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    </table>
+    </tr>
+    <tr>
+      <td align="center" style="font-family:arial, helvetica, sans-serif;text-align:center;font-size:24px;">
+        <img src="https://gallery.mailchimp.com/24b0ab57106194b0fcd72021d/images/b332e322-bb82-47ad-833b-29fa77f8446d.png" width="310" style="display:block;margin:0 auto;white-space:pre;text-align:center;" alt="Front Office Sports" id="fos-logo" class="box">
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:0 0 15px;" mc:hideable>
+        <table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:250px;margin:0 auto;" class="sponsor">
+          <tr>
+            <td height="30" align="center" valign="bottom" class="power" style="width:100px;">
+              <p style="margin:0;font-family:arial, helvetica, sans-serif;text-align:center;font-size:13px;color:#161618;-webkit-text-size-adjust:none;font-weight:bold;">Powered by</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
             <!-- <tr>
             <td align="center">
               <table align="left" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:100%;margin:0;">
@@ -338,7 +291,7 @@
     <!-- DIVIDER -->
     <hr class="rounded">
     <!-- FACT OF THE DAY -->
-    <table align="center" id="fotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="fact_of_the_day">
+    <table align="center" id="fotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="fact_of_the_day">
       <tr>
         <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; margin-left:5% auto; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="fact_flag">Fact of the Day</td>
       </tr>
@@ -365,7 +318,7 @@
       </tr>
     </table>
     <!-- TRENDING -->
-    <table align="center" id="trending" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="trending">
+    <table align="center" id="trending" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="trending">
       <tr>
         <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; margin-left:5% auto;font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="trend_flag">Stories to Watch</td>
       </tr>
@@ -392,7 +345,7 @@
       </tr>
     </table>
     <!-- HERO -->
-    <table id="hero-card" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="hero">
+    <table class="card" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="hero">
       <tr>
         <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="hero_flag">Hero Story Title</td>
       </tr>
@@ -423,7 +376,7 @@
       </tr>
     </table>
     <!-- PARTNER THOUGHTS -->
-    <table id="partner-card" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="partner_thoughts">
+    <table id="card" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:0 auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="partner_thoughts">
       <tr>
         <td align="center" style="padding:0;">
           <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" style="width:100%;margin:0 auto;">
@@ -480,7 +433,7 @@
       </tr>
     </table>
     <!-- PODCAST -->
-    <table id="podcast-card" role="presentation" style="width:640px;margin:2% auto; border-top:0px solid #d40000 !important;" class="box divider-line podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
+    <table id="card" role="presentation" style="width:640px;margin:2% auto; border-top:0px solid #d40000 !important;" class="card podcast-divider" mc:repeatable mc:variant="podcast_section" cellspacing="0" cellpadding="0" border="0" align="center">
       <tbody>
         <tr>
           <td style="padding:0;" align="center">
@@ -533,7 +486,7 @@
       </tr>
     </table>
     <!-- WEBINAR -->
-    <table align="center" id="webinar-card" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #ff7735;" class="box divider-line orange-divider" mc:repeatable mc:variant="webinar">
+    <table align="center" id="card" cellpadding="0" cellspacing="0" border="0" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #ff7735;" class="card orange-divider" mc:repeatable mc:variant="webinar">
       <tr>
         <td align="center" style="padding:0;">
           <table align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation" style="width:100%;margin:0 auto;">
@@ -592,7 +545,7 @@
       </tr>
     </table>
     <!-- READING -->
-    <table align="center" id="reading" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="worthy_to_read">
+    <table align="center" id="reading" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="worthy_to_read">
       <tr>
         <td align="left" style="padding-left: 2.5%; margin-left:5% auto; padding-top: 1.5%; padding-bottom: 1.5%; font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="read_flag">Worthy of Your Time</td>
       </tr>
@@ -619,7 +572,7 @@
       </tr>
     </table>
     <!-- QUESTION OF THE DAY -->
-    <table align="center" id="qotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="box divider-line" mc:repeatable mc:variant="question_of_the_day">
+    <table align="center" id="qotd" cellpadding="0" cellspacing="0" border="0" bgcolor="#fffffe" role="presentation" style="width:640px;margin:2% auto;border-top:0px solid #359df7;" class="card" mc:repeatable mc:variant="question_of_the_day">
       <tr>
         <td align="left" style="padding-left: 2.5%; padding-top: 1.5%; padding-bottom: 1.5%; margin-left:5% auto;font-size:30px;font-family:georgia, 'times new roman', serif;text-align:left;color:#161618;font-weight:normal;" class="title" mc:edit="question_flag">Question of the Day</td>
       </tr>
